@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?familly= Segoe UI");
 * {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,6 +19,102 @@
     align-items: center;
     background-color: black;
     z-index: -100;
+=======
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(18, 18, 25);;
+}
+/*Mobile*/
+@media only screen and (max-width:360px) {
+  .display-flex {
+    flex-wrap: wrap;
+  }
+}
+
+/* lucas */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+section.sec_01 {
+  width: 100%;
+  height: auto;
+  width: 95%;
+  margin: 0 auto;
+}
+.sec_01 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 0 20px */
+
+  padding: 50px;
+}
+.sec_01 .card {
+  margin: 10px;
+  /* border: 2px solid blue; */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card_title {
+  display: flex;
+  gap: 20px;
+  /* border: 2px solid black; */
+}
+.card_title img {
+  width: 70px;
+  clip-path: circle();
+}
+.card_title h1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.card_txt {
+  padding-left: 8px;
+  font-size: 15px;
+}
+section.sec_02 {
+  width: 95%;
+  margin: 0 auto;
+  height: 500px;
+ 
+}
+.sec_02 .list_img {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.list_img .img_item {
+  width: 300px;
+  height: 400px;
+}
+.img_item img {
+  max-width: 100%;
+}
+/* lucas */
+
+/* Code css Maric */
+.display-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20%;
+  margin-top: 5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+  
+  
+>>>>>>> 8973414c2e581219bd47bb827b10a58abb1e65ee
 }
 
 header {
@@ -40,6 +137,7 @@ header {
     background-image: url("/assets/image/sary.jpg");
     z-index: 100;
 }
+<<<<<<< HEAD
 
 .logo {
     display: flex;
@@ -132,4 +230,25 @@ li.profil {
     margin-left: 8px;
     text-decoration: 0;
     transition: 0.5s;
+=======
+.picture {
+  width: 500px;
+  padding: 0 10%;
+}
+.footer {
+  border-bottom: 1px solid rgb(250, 247, 247);
+}
+.section-before-footer {
+  height: 100vh;
+}
+.paragraph {
+  color: rgb(211, 217, 221);
+}
+.btn-reserve {
+  padding: 10px 20px;
+  border: 3px solid rgb(211, 217, 221) ;
+  background-color: rgb(5, 4, 4);
+  color:rgb(211, 217, 221) ;
+  margin-top: 9rem;
+>>>>>>> 8973414c2e581219bd47bb827b10a58abb1e65ee
 }
