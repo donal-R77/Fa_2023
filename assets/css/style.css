@@ -106,7 +106,10 @@ section.sec_02 {
   padding: 0 10%;
 }
 .footer {
-  border-bottom: 1px solid rgb(250, 247, 247);
+  border-top: 1px solid rgb(250, 247, 247);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(211, 217, 221);;
 }
 .section-before-footer {
   height: 100vh;
@@ -117,7 +120,12 @@ section.sec_02 {
 .btn-reserve {
   padding: 10px 20px;
   border: 3px solid rgb(211, 217, 221) ;
-  background-color: rgb(5, 4, 4);
   color:rgb(211, 217, 221) ;
   margin-top: 9rem;
+}
+.reseaux {
+  display: flex;
+  justify-content: center;
+  gap:10px;
+
 }
