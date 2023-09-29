@@ -3,13 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*Mobile*/
+@media only screen and (max-width:360px) {
+  .display-flex {
+    flex-wrap: wrap;
+  }
+}
 /* Code css Maric */
 .display-flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 20%;
   margin-top: 5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+  
+  
 }
 .item-flex-1 {
   display: block;
@@ -20,9 +31,10 @@
 }
 .picture {
   width: 500px;
+  padding: 0 10%;
 }
 .footer {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(250, 247, 247);
 }
 .section-before-footer{
   background-color: rgb(5, 4, 4);
@@ -30,4 +42,11 @@
 }
 .paragraph {
  color: rgb(211, 217, 221);
+}
+.btn-reserve {
+  padding: 10px 20px;
+  border: 3px solid rgb(211, 217, 221) ;
+  background-color: rgb(5, 4, 4);
+  color:rgb(211, 217, 221) ;
+  margin-top: 14rem;
 }
