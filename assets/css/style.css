@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Code css Maric */
+.display-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20%;
+  margin-top: 5rem;
+}
+.item-flex-1 {
+  display: block;
+}
+.item-flex-2 {
+  max-width: 500px;
+  height: 50px;
+}
+.picture {
+  width: 500px;
+}
+.footer {
+  border-bottom: 1px solid grey;
+}
+.section-before-footer{
+  background-color: rgb(5, 4, 4);
+  height: 100vh;
+}
+.paragraph {
+ color: rgb(211, 217, 221);
+}
