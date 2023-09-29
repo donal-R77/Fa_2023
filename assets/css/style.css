@@ -9,6 +9,80 @@
     flex-wrap: wrap;
   }
 }
+
+/* lucas */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  /* margin: 0 20px; */
+  background-color: rgb(18, 18, 25);
+}
+section.sec_01 {
+  width: 100%;
+  height: auto;
+  border: 2px solid red;
+  width: 95%;
+  margin: 0 auto;
+}
+.sec_01 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 0 20px */
+
+  padding: 50px;
+}
+.sec_01 .card {
+  margin: 10px;
+  /* border: 2px solid blue; */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card_title {
+  display: flex;
+  gap: 20px;
+  /* border: 2px solid black; */
+}
+.card_title img {
+  width: 70px;
+  clip-path: circle();
+}
+.card_title h1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.card_txt {
+  padding-left: 8px;
+  font-size: 15px;
+}
+section.sec_02 {
+  width: 95%;
+  margin: 0 auto;
+  height: 500px;
+  border: 2px solid yellow;
+}
+.sec_02 .list_img {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.list_img .img_item {
+  width: 300px;
+  height: 400px;
+}
+.img_item img {
+  max-width: 100%;
+}
+/* lucas */
+
 /* Code css Maric */
 .display-flex {
   display: flex;
@@ -36,12 +110,12 @@
 .footer {
   border-bottom: 1px solid rgb(250, 247, 247);
 }
-.section-before-footer{
+.section-before-footer {
   background-color: rgb(5, 4, 4);
   height: 100vh;
 }
 .paragraph {
- color: rgb(211, 217, 221);
+  color: rgb(211, 217, 221);
 }
 .btn-reserve {
   padding: 10px 20px;
