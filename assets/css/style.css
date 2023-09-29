@@ -13,12 +13,12 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   /* margin: 0 20px; */
-  background-color: rgb(18, 18, 25);
+  background-color: rgb(5, 4, 4);
 }
 section.sec_01 {
   width: 100%;
   height: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 95%;
   margin: 0 auto;
 }
@@ -60,7 +60,7 @@ section.sec_02 {
   width: 95%;
   margin: 0 auto;
   height: 500px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 .sec_02 .list_img {
   list-style-type: none;
@@ -83,7 +83,7 @@ section.sec_02 {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 20%;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 .item-flex-1 {
   display: block;
