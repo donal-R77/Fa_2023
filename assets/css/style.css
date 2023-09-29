@@ -3,37 +3,76 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-/*code lucas*/
+/* lucas */
 main {
-  border: 2px solid red;
-  width: 100%;
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  /* margin: 0 20px; */
+  background-color: rgb(18, 18, 25);
 }
-ul.testimonial {
-  border: 3px solid blue;
+section.sec_01 {
+  width: 100%;
+  height: auto;
+  border: 2px solid red;
+  width: 95%;
+  margin: 0 auto;
+}
+.sec_01 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  /* padding: 0 20px */
+
+  padding: 50px;
 }
-li.card {
-  border: 2px solid yellow;
-  width: 400px;
-  /* display: flex; */
-}
-.card .card_profil {
+.sec_01 .card {
+  margin: 10px;
+  /* border: 2px solid blue; */
+  width: 300px;
+  height: 300px;
   display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.card_profil img {
-  width: 50px;
+.card_title {
+  display: flex;
+  gap: 20px;
+  /* border: 2px solid black; */
+}
+.card_title img {
+  width: 70px;
   clip-path: circle();
 }
-.card_profil .name {
-  border: 2px solid red;
-  margin: 0 10px;
+.card_title h1 {
+  display: flex;
+  justify-content: flex-start;
 }
-
-/*code lucas*/
+.card_txt {
+  padding-left: 8px;
+  font-size: 15px;
+}
+section.sec_02 {
+  width: 95%;
+  margin: 0 auto;
+  height: 500px;
+  border: 2px solid yellow;
+}
+.sec_02 .list_img {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.list_img .img_item {
+  width: 300px;
+  height: 400px;
+}
+.img_item img {
+  max-width: 100%;
+}
+/* lucas */
