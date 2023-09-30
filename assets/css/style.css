@@ -4,3 +4,31 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    position: relative;
+    margin-right: 47px;
+    text-decoration: 0;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
