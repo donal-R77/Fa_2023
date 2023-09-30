@@ -88,7 +88,7 @@ p {
   
 }
 .content-text>h2 {
-  font-weight: 500;
+  font-weight: bold;
 }
 input {
   padding: 5px;
@@ -98,6 +98,7 @@ input {
   border: none;
   color: hsl(36, 100%, 99%);
   font-weight: 600;
+  margin-top: 5px;
 }
 input:hover {
   background-color: hsl(240, 100%, 5%);
