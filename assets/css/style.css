@@ -32,3 +32,50 @@ header {
     transition: 0.5s;
     text-transform: capitalize;
 }
+
+.content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .text {
+    width: 100%;
+    max-width: 600px;
+}
+
+.content .text h2 {
+    color: blue;
+    font-size: 4em;
+    font-weight: 300;
+    margin: 40px;
+    border-image: url();
+}
+
+.content .text p {
+    color: blue;
+    line-height: 1.5em;
+    margin: 40px;
+}
+
+.slider {
+    position: relative;
+    margin: 50px 60px;
+}
+
+.slides {
+    display: none;
+}
+
+.affiche {
+    display: block;
+    margin: 40px;
+}
+
+.slides img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 50px;
+}
