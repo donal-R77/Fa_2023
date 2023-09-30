@@ -22,8 +22,8 @@ header {
     height: 100px;
     display: flex;
     padding-top: 20px;
-    justify-content: space-between;
-    background-color: #7e7e7e;
+    justify-content: center;
+    +background-color: #01baef;
     z-index: 100;
 }
 
