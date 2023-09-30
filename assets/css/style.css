@@ -1,254 +1,260 @@
-@import url("https://fonts.googleapis.com/css?familly= Segoe UI");
-* {
-<<<<<<< HEAD
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI serif';
-}
-
-
-/* Clet css header */
-
-.main {
-    position: relative;
-    min-height: 100vh;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    z-index: -100;
-=======
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(18, 18, 25);;
-}
-/*Mobile*/
-@media only screen and (max-width:360px) {
-  .display-flex {
-    flex-wrap: wrap;
-  }
-}
-
-/* lucas */
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-}
-section.sec_01 {
-  width: 100%;
-  height: auto;
-  width: 95%;
-  margin: 0 auto;
-}
-.sec_01 ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  /* padding: 0 20px */
-
-  padding: 50px;
-}
-.sec_01 .card {
-  margin: 10px;
-  /* border: 2px solid blue; */
-  width: 300px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.card_title {
-  display: flex;
-  gap: 20px;
-  /* border: 2px solid black; */
-}
-.card_title img {
-  width: 70px;
-  clip-path: circle();
-}
-.card_title h1 {
-  display: flex;
-  justify-content: flex-start;
-}
-.card_txt {
-  padding-left: 8px;
-  font-size: 15px;
-}
-section.sec_02 {
-  width: 95%;
-  margin: 0 auto;
-  height: 500px;
- 
-}
-.sec_02 .list_img {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
-}
-.list_img .img_item {
-  width: 300px;
-  height: 400px;
-}
-.img_item img {
-  max-width: 100%;
-}
-/* lucas */
-
-/* Code css Maric */
-.display-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0 20%;
-  margin-top: 5rem;
-  max-width: 1440px;
-  margin: 0 auto;
-  
-  
-  
->>>>>>> 8973414c2e581219bd47bb827b10a58abb1e65ee
-}
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.head {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    padding-top: 20px;
-    justify-content: space-between;
-    background-image: url("/assets/image/sary.jpg");
-    z-index: 100;
-}
-<<<<<<< HEAD
-
-.logo {
-    display: flex;
-}
-
-.logo li {
-    list-style: none;
-}
-
-.logo li a {
-    position: relative;
-    margin-left: 40px;
-    color: antiquewhite;
-    text-decoration: 0;
-    transition: 0.5s;
-    text-transform: capitalize;
-    font-family: serif;
-    font-weight: 200;
-    font-size: xx-large;
-}
-
-.main {
-    width: 98%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 100;
-}
-
-.nav {
-    display: flex;
-}
-
-.nav li {
-    list-style: none;
-}
-
-.nav li a {
-    position: relative;
-    margin-right: 47px;
-    color: antiquewhite;
-    text-decoration: 0;
-    transition: 0.5s;
-    text-transform: capitalize;
-}
-
-#active {
-    text-decoration: underline yellowgreen 5px !important;
-}
-
-.nav li a:hover {
-    color: blue;
-}
-
-.flex-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-main {
-    border: 2px solid red;
-    width: 100%;
-    height: 500px;
-    /* position: relative */
-}
-
-ul.testimonial {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px solid green;
-}
-
-li.profil {
-    border: 2px solid blue;
-    width: 400px;
-    height: 300px;
-    margin-left: 8px;
-    text-decoration: 0;
-    transition: 0.5s;
-=======
-.picture {
-  width: 500px;
-  padding: 0 10%;
-}
-.footer {
-  border-bottom: 1px solid rgb(250, 247, 247);
-}
-.section-before-footer {
-  height: 100vh;
-}
-.paragraph {
-  color: rgb(211, 217, 221);
-}
-.btn-reserve {
-  padding: 10px 20px;
-  border: 3px solid rgb(211, 217, 221) ;
-  background-color: rgb(5, 4, 4);
-  color:rgb(211, 217, 221) ;
-  margin-top: 9rem;
->>>>>>> 8973414c2e581219bd47bb827b10a58abb1e65ee
-}
+            @import url("https://fonts.googleapis.com/css?familly= Segoe UI");
+            HEAD {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segoe UI serif';
+            }
+            /* Clet css header */
+            
+            .main {
+                position: relative;
+                min-height: 100vh;
+                padding: 30px 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                z-index: -100;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                background-color: rgb(18, 18, 25);
+                ;
+            }
+            /*Mobile*/
+            
+            @media only screen and (max-width:360px) {
+                .display-flex {
+                    flex-wrap: wrap;
+                }
+            }
+            /* lucas */
+            
+            main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #fff;
+            }
+            
+            section.sec_01 {
+                width: 100%;
+                height: auto;
+                width: 95%;
+                margin: 0 auto;
+            }
+            
+            .sec_01 ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-evenly;
+                /* padding: 0 20px */
+                padding: 50px;
+            }
+            
+            .sec_01 .card {
+                margin: 10px;
+                /* border: 2px solid blue; */
+                width: 300px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .card_title {
+                display: flex;
+                gap: 20px;
+                /* border: 2px solid black; */
+            }
+            
+            .card_title img {
+                width: 70px;
+                clip-path: circle();
+            }
+            
+            .card_title h1 {
+                display: flex;
+                justify-content: flex-start;
+            }
+            
+            .card_txt {
+                padding-left: 8px;
+                font-size: 15px;
+            }
+            
+            section.sec_02 {
+                width: 95%;
+                margin: 0 auto;
+                height: 500px;
+            }
+            
+            .sec_02 .list_img {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 50px;
+            }
+            
+            .list_img .img_item {
+                width: 300px;
+                height: 400px;
+            }
+            
+            .img_item img {
+                max-width: 100%;
+            }
+            /* lucas */
+            /* Code css Maric */
+            
+            .display-flex {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding: 0 20%;
+                margin-top: 5rem;
+                max-width: 1440px;
+                margin: 0 auto;
+            }
+            
+            header {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 100;
+            }
+            
+            .head {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                padding-top: 20px;
+                justify-content: space-between;
+                background-image: url("/assets/image/sary.jpg");
+                z-index: 100;
+            }
+            
+            HEAD .logo {
+                display: flex;
+            }
+            
+            .logo li {
+                list-style: none;
+            }
+            
+            .logo li a {
+                position: relative;
+                margin-left: 40px;
+                color: antiquewhite;
+                text-decoration: 0;
+                transition: 0.5s;
+                text-transform: capitalize;
+                font-family: serif;
+                font-weight: 200;
+                font-size: xx-large;
+            }
+            
+            .main {
+                width: 98%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                z-index: 100;
+            }
+            
+            .nav {
+                display: flex;
+            }
+            
+            .nav li {
+                list-style: none;
+            }
+            
+            .nav li a {
+                position: relative;
+                margin-right: 47px;
+                color: antiquewhite;
+                text-decoration: 0;
+                transition: 0.5s;
+                text-transform: capitalize;
+            }
+            
+            #active {
+                text-decoration: underline yellowgreen 5px !important;
+            }
+            
+            .nav li a:hover {
+                color: blue;
+            }
+            
+            .flex-box {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            main {
+                border: 2px solid red;
+                width: 100%;
+                height: 500px;
+                /* position: relative */
+            }
+            
+            ul.testimonial {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border: 2px solid green;
+            }
+            
+            li.profil {
+                border: 2px solid blue;
+                width: 400px;
+                height: 300px;
+                margin-left: 8px;
+                text-decoration: 0;
+                transition: 0.5s;
+            }
+            
+            .picture {
+                width: 500px;
+                padding: 0 10%;
+            }
+            
+            .footer {
+                border-bottom: 1px solid rgb(250, 247, 247);
+            }
+            
+            .section-before-footer {
+                height: 100vh;
+            }
+            
+            .paragraph {
+                color: rgb(211, 217, 221);
+            }
+            
+            .btn-reserve {
+                padding: 10px 20px;
+                border: 3px solid rgb(211, 217, 221);
+                background-color: rgb(5, 4, 4);
+                color: rgb(211, 217, 221);
+                margin-top: 9rem;
+            }
