@@ -39,6 +39,43 @@ p {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: block;
 }
+.card-one {
+  
+  animation: move-card 2s linear   normal ;
+}
+.card-two {
+  animation: move-card-3 2s linear normal;
+}
+.card-three {
+  animation: move-card-2 2s linear  normal;
+}
+@keyframes move-card {
+  from {
+    transform: translate(-700px);
+  } 
+  to {
+    transform: translate(0);
+  }
+  
+}
+@keyframes move-card-2 {
+  from {
+    transform: translate(1000px);
+  } 
+  to {
+    transform: translate(0);
+  }
+  
+}
+@keyframes move-card-3 {
+  from {
+    transform: scale(0);
+  } 
+  to {
+    transform: scale(1);
+  }
+  
+}
 .width-image {
   width: 300px;
   height: 200px;
@@ -53,4 +90,17 @@ p {
 }
 .content-text>h2 {
   font-weight: 500;
+}
+input {
+  padding: 5px;
+  width: 50%;
+  height: 40px;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  color: hsl(36, 100%, 99%);
+  font-weight: 600;
+}
+input:hover {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
 }
